@@ -4,11 +4,11 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="log">paradiseSocial</span>
+        <span className="logo">paradiseSocial</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          <Search />
+          <Search className="searchIcon" />
           <input
             placeholder="Search for friends post, video"
             className="searchInput"
@@ -34,7 +34,7 @@ export default function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src="" alt="" className="topbarImg" />
+        <img src="/asset/person/3.JPG" alt="" className="topbarImg" />
       </div>
     </div>
   );
