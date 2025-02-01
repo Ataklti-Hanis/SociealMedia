@@ -1,5 +1,11 @@
+import Topbar from "../../components/topbar/Topbar";
+
 const Home = () => {
-  return <div>this is your home</div>;
+  return (
+    <div>
+      <Topbar />
+    </div>
+  );
 };
 
 export default Home;
